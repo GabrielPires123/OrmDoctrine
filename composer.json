@@ -1,0 +1,16 @@
+{
+  "require": {
+    "doctrine/dbal": "^4",
+    "symfony/cache": "^7",
+    "doctrine/doctrine-bundle": "^2.14",
+    "doctrine/migrations": "^3.9",
+    "doctrine/orm": "^3.3",
+    "ext-readline": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ORM\\Doctrine\\": "src/",
+      "Helper\\": "src/Helper/"
+    }
+  }
+}
